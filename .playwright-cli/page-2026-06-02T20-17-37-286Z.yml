@@ -1,0 +1,222 @@
+- generic [ref=e23]:
+  - complementary [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]: T
+      - generic [ref=e27]:
+        - generic [ref=e28]: CTQS
+        - generic [ref=e29]: Quality Engine
+    - button "New Test Run" [ref=e31]:
+      - img [ref=e32]
+      - text: New Test Run
+    - navigation [ref=e33]:
+      - link "Dashboard" [ref=e34] [cursor=pointer]:
+        - /url: /dashboards
+        - img [ref=e35]
+        - generic [ref=e37]: Dashboard
+      - link "Projetos" [ref=e38] [cursor=pointer]:
+        - /url: /projects
+        - img [ref=e39]
+        - generic [ref=e41]: Projetos
+      - link "Test Suites" [ref=e42] [cursor=pointer]:
+        - /url: /tests
+        - img [ref=e43]
+        - generic [ref=e45]: Test Suites
+      - link "Test Cases" [ref=e46] [cursor=pointer]:
+        - /url: /test-cases
+        - img [ref=e47]
+        - generic [ref=e50]: Test Cases
+      - link "Execuções" [ref=e51] [cursor=pointer]:
+        - /url: /runs
+        - img [ref=e52]
+        - generic [ref=e56]: Execuções
+      - link "Reports" [ref=e57] [cursor=pointer]:
+        - /url: /reports
+        - img [ref=e58]
+        - generic [ref=e60]: Reports
+      - link "Ambientes" [ref=e61] [cursor=pointer]:
+        - /url: /execution
+        - img [ref=e62]
+        - generic [ref=e64]: Ambientes
+      - link "Issues" [ref=e65] [cursor=pointer]:
+        - /url: /issues
+        - img [ref=e66]
+        - generic [ref=e75]: Issues
+    - generic [ref=e76]:
+      - generic [ref=e292]:
+        - generic [ref=e293]: Projeto Ativo
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - generic [ref=e296]: EV
+            - generic [ref=e297]: EVNODEF
+          - button "Trocar" [ref=e298]
+      - generic [ref=e80]:
+        - generic [ref=e81]: T
+        - generic [ref=e82]:
+          - generic [ref=e83]: Tester Playwright
+          - generic [ref=e84]: tester.playwright@tmctqs.local
+        - button "Sair" [ref=e85]:
+          - img [ref=e86]
+  - generic [ref=e88]:
+    - banner [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e92]:
+          - img [ref=e93]
+          - textbox "Search test suites..." [ref=e96]
+        - generic [ref=e97]:
+          - generic [ref=e301]: EVNODEF
+          - button "Modo Escuro" [ref=e98]:
+            - img [ref=e99]
+          - button "Notifications" [ref=e101]:
+            - img [ref=e102]
+          - button "Apps" [ref=e105]:
+            - img [ref=e106]
+          - generic [ref=e108]:
+            - generic [ref=e109]: T
+            - generic [ref=e110]: Tester Playwright
+    - main [ref=e111]:
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - heading "Projetos de Engenharia" [level=1] [ref=e142]
+            - paragraph [ref=e143]: Gerencie seus fluxos de trabalho de QA, monitore a saúde dos sprints e garanta a entrega contínua com precisão técnica.
+          - button "Novo Projeto" [ref=e144]:
+            - img [ref=e145]
+            - text: Novo Projeto
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - button "My Projects" [ref=e148]
+            - button "Recent" [ref=e149]
+            - button "Archived" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: 1 STABLE
+            - generic [ref=e154]: 0 AT RISK
+            - generic [ref=e156]: 3 CRITICAL
+        - generic [ref=e158]:
+          - button "EVNODEF Envo Default CRITICAL Test Cases 0 Pass Rate 0% Active Defects 0 Test Runs 0" [ref=e302]:
+            - generic [ref=e304]:
+              - generic [ref=e305]:
+                - generic [ref=e306]:
+                  - generic [ref=e307]: EVNODEF
+                  - heading "Envo Default" [level=2] [ref=e308]
+                - generic [ref=e309]: CRITICAL
+              - generic [ref=e310]:
+                - generic [ref=e311]:
+                  - generic [ref=e312]: Test Cases
+                  - generic [ref=e313]: "0"
+                - generic [ref=e315]:
+                  - generic [ref=e316]: Pass Rate
+                  - generic [ref=e317]: 0%
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - generic [ref=e321]: Active Defects
+                  - generic [ref=e322]: "0"
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Test Runs
+                  - generic [ref=e325]: "0"
+          - button "EVNOQAHMG Evno Homologação CRITICAL Test Cases 0 Pass Rate 0% Active Defects 0 Test Runs 0" [ref=e326]:
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - generic [ref=e331]: EVNOQAHMG
+                  - heading "Evno Homologação" [level=2] [ref=e332]
+                - generic [ref=e333]: CRITICAL
+              - generic [ref=e334]:
+                - generic [ref=e335]:
+                  - generic [ref=e336]: Test Cases
+                  - generic [ref=e337]: "0"
+                - generic [ref=e339]:
+                  - generic [ref=e340]: Pass Rate
+                  - generic [ref=e341]: 0%
+              - generic [ref=e343]:
+                - generic [ref=e344]:
+                  - generic [ref=e345]: Active Defects
+                  - generic [ref=e346]: "0"
+                - generic [ref=e347]:
+                  - generic [ref=e348]: Test Runs
+                  - generic [ref=e349]: "0"
+          - button "CRN44 Teste Cronapp 4.4 CRITICAL Test Cases 0 Pass Rate 0% Active Defects 0 Test Runs 0" [ref=e350]:
+            - generic [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]: CRN44
+                  - heading "Teste Cronapp 4.4" [level=2] [ref=e356]
+                - generic [ref=e357]: CRITICAL
+              - generic [ref=e358]:
+                - generic [ref=e359]:
+                  - generic [ref=e360]: Test Cases
+                  - generic [ref=e361]: "0"
+                - generic [ref=e363]:
+                  - generic [ref=e364]: Pass Rate
+                  - generic [ref=e365]: 0%
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - generic [ref=e369]: Active Defects
+                  - generic [ref=e370]: "0"
+                - generic [ref=e371]:
+                  - generic [ref=e372]: Test Runs
+                  - generic [ref=e373]: "0"
+          - button "TMEQA TMCTQS Evo STABLE Test Cases 2 Pass Rate 100% Active Defects 1 Test Runs 2" [ref=e374]:
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - generic [ref=e378]:
+                  - generic [ref=e379]: TMEQA
+                  - heading "TMCTQS Evo" [level=2] [ref=e380]
+                - generic [ref=e381]: STABLE
+              - generic [ref=e382]:
+                - generic [ref=e383]:
+                  - generic [ref=e384]: Test Cases
+                  - generic [ref=e385]: "2"
+                - generic [ref=e387]:
+                  - generic [ref=e388]: Pass Rate
+                  - generic [ref=e389]: 100%
+              - generic [ref=e392]:
+                - generic [ref=e393]:
+                  - generic [ref=e394]: Active Defects
+                  - generic [ref=e395]: "1"
+                - generic [ref=e396]:
+                  - generic [ref=e397]: Test Runs
+                  - generic [ref=e398]: "2"
+          - button "Novo Projeto Provisione um novo ambiente de teste" [ref=e399]:
+            - img [ref=e401]
+            - paragraph [ref=e402]: Novo Projeto
+            - paragraph [ref=e403]: Provisione um novo ambiente de teste
+        - generic [ref=e237]:
+          - generic [ref=e239]:
+            - generic [ref=e241]:
+              - generic [ref=e242]: Quality Metrics Over Time
+              - generic [ref=e243]: Performance dos projetos
+            - generic [ref=e247]:
+              - generic [ref=e404]:
+                - 'generic "Envo Default: 0%" [ref=e405]'
+                - generic [ref=e406]: EVNODEF
+              - generic [ref=e248]:
+                - 'generic "Evno Homologação: 0%" [ref=e249]'
+                - generic [ref=e250]: EVNOQAHMG
+              - generic [ref=e251]:
+                - 'generic "Teste Cronapp 4.4: 0%" [ref=e252]'
+                - generic [ref=e253]: CRN44
+              - generic [ref=e254]:
+                - 'generic "TMCTQS Evo: 100%" [ref=e255]'
+                - generic [ref=e256]: TMEQA
+          - generic [ref=e258]:
+            - generic [ref=e259]: Recent Activity
+            - generic [ref=e260]:
+              - generic [ref=e263]:
+                - paragraph [ref=e264]: Test run "Manual" completed
+                - paragraph [ref=e265]: 31/05/2026
+              - generic [ref=e268]:
+                - paragraph [ref=e269]: Test run "Novo Run" in progress
+                - paragraph [ref=e270]: 31/05/2026
+              - generic [ref=e273]:
+                - paragraph [ref=e274]: "Issue: modal do perfil de usuário não abre"
+                - paragraph [ref=e275]: Medium · 31/05/2026
+    - contentinfo [ref=e128]:
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]: CTQS Enterprise
+          - generic [ref=e132]: "System Status: Operational"
+        - generic [ref=e134]:
+          - generic [ref=e135]: v2.4.1-stable
+          - generic [ref=e136] [cursor=pointer]: Privacy
+          - generic [ref=e137] [cursor=pointer]: Terms
+          - generic [ref=e138] [cursor=pointer]: Changelog

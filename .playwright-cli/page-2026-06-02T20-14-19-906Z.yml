@@ -1,0 +1,19 @@
+- generic [ref=e5]:
+  - generic [ref=e6]:
+    - generic [ref=e7]: T
+    - generic [ref=e8]: TMCTQS
+    - generic [ref=e9]: Gestão de Testes Manual
+  - generic [ref=e10]:
+    - generic [ref=e11]: Criar conta
+    - generic [ref=e12]:
+      - generic [ref=e19]:
+        - text: Nome
+        - textbox "Seu nome" [ref=e20]
+      - generic [ref=e13]:
+        - text: Email
+        - textbox "seu@email.com" [ref=e14]
+      - generic [ref=e15]:
+        - text: Senha
+        - textbox "••••••••" [ref=e16]
+      - button "Criar conta" [ref=e21]
+      - button "Já tenho conta (Entrar)" [active] [ref=e22]

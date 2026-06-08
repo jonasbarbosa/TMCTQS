@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "appwrite-api": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": ["scripts/mcp-appwrite.sh"]
+    },
+    "appwrite-docs": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp-for-docs.appwrite.io"]
+    }
+  }
+}

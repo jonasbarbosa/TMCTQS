@@ -1,0 +1,219 @@
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: T
+      - generic [ref=e8]:
+        - generic [ref=e9]: CTQS
+        - generic [ref=e10]: Quality Engine
+    - button "New Test Run" [ref=e12]:
+      - img [ref=e13]
+      - text: New Test Run
+    - navigation [ref=e14]:
+      - link "Dashboard" [ref=e15] [cursor=pointer]:
+        - /url: /dashboards
+        - img [ref=e16]
+        - generic [ref=e18]: Dashboard
+      - link "Projetos" [ref=e19] [cursor=pointer]:
+        - /url: /projects
+        - img [ref=e20]
+        - generic [ref=e22]: Projetos
+      - link "Test Suites" [ref=e23] [cursor=pointer]:
+        - /url: /tests
+        - img [ref=e24]
+        - generic [ref=e26]: Test Suites
+      - link "Test Cases" [ref=e27] [cursor=pointer]:
+        - /url: /test-cases
+        - img [ref=e28]
+        - generic [ref=e31]: Test Cases
+      - link "Execuções" [ref=e32] [cursor=pointer]:
+        - /url: /runs
+        - img [ref=e33]
+        - generic [ref=e37]: Execuções
+      - link "Reports" [ref=e38] [cursor=pointer]:
+        - /url: /reports
+        - img [ref=e39]
+        - generic [ref=e41]: Reports
+      - link "Ambientes" [ref=e42] [cursor=pointer]:
+        - /url: /execution
+        - img [ref=e43]
+        - generic [ref=e45]: Ambientes
+      - link "Issues" [ref=e46] [cursor=pointer]:
+        - /url: /issues
+        - img [ref=e47]
+        - generic [ref=e56]: Issues
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]: Projeto Ativo
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: TM
+            - generic [ref=e63]: TMEQA
+          - button "Trocar" [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e66]: J
+        - generic [ref=e67]:
+          - generic [ref=e68]: Jonas
+          - generic [ref=e69]: jonas.barbosa@msn.com
+        - button "Sair" [ref=e70]:
+          - img [ref=e71]
+  - generic [ref=e73]:
+    - banner [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e77]:
+          - img [ref=e78]
+          - textbox "Search test suites..." [ref=e81]
+        - generic [ref=e82]:
+          - generic [ref=e85]: TMEQA
+          - button "Modo Escuro" [ref=e86]:
+            - img [ref=e87]
+          - button "Notifications" [ref=e89]:
+            - img [ref=e90]
+          - button "Apps" [ref=e93]:
+            - img [ref=e94]
+          - generic [ref=e96]:
+            - generic [ref=e97]: J
+            - generic [ref=e98]: Jonas
+    - main [ref=e99]:
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - link "Dashboard" [ref=e105] [cursor=pointer]:
+                - /url: /dashboards
+              - img [ref=e106]
+              - generic [ref=e108]: Test Cases
+            - heading "Test Cases" [level=1] [ref=e109]
+            - paragraph [ref=e110]: Cenários de teste detalhados, vinculados a uma Suite.
+          - button "Novo Test Case" [ref=e111]:
+            - img [ref=e112]
+            - text: Novo Test Case
+        - generic [ref=e113]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: Suite ativa
+            - combobox [ref=e117]:
+              - option "smoke" [selected]
+            - paragraph [ref=e118]: Sem descrição.
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]: Blocker
+              - generic [ref=e122]: "0"
+            - generic [ref=e123]:
+              - generic [ref=e124]: Critical
+              - generic [ref=e125]: "0"
+            - generic [ref=e126]:
+              - generic [ref=e127]: High
+              - generic [ref=e128]: "0"
+            - generic [ref=e129]:
+              - generic [ref=e130]: Medium
+              - generic [ref=e131]: "1"
+            - generic [ref=e132]:
+              - generic [ref=e133]: Low
+              - generic [ref=e134]: "0"
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - img [ref=e138]
+            - textbox "Buscar caso de teste..." [ref=e141]
+          - generic [ref=e142]:
+            - img [ref=e143]
+            - combobox [ref=e145]:
+              - option "Todas as Severities" [selected]
+              - option "Blocker"
+              - option "Critical"
+              - option "High"
+              - option "Medium"
+              - option "Low"
+            - combobox [ref=e146]:
+              - option "Todas as Priorities" [selected]
+              - option "P0"
+              - option "P1"
+              - option "P2"
+              - option "P3"
+        - table [ref=e149]:
+          - rowgroup [ref=e150]:
+            - row "Caso Severity Priority Steps Ações" [ref=e151]:
+              - columnheader [ref=e152]
+              - columnheader "Caso" [ref=e153]
+              - columnheader "Severity" [ref=e154]
+              - columnheader "Priority" [ref=e155]
+              - columnheader "Steps" [ref=e156]
+              - columnheader "Ações" [ref=e157]
+          - rowgroup [ref=e158]:
+            - row "Testar conexão com appwrite Medium P1 0" [ref=e159] [cursor=pointer]:
+              - cell [ref=e160]:
+                - img [ref=e161]
+              - cell "Testar conexão com appwrite" [ref=e163]:
+                - generic [ref=e164]: Testar conexão com appwrite
+              - cell "Medium" [ref=e165]:
+                - generic [ref=e166]:
+                  - img [ref=e167]
+                  - text: Medium
+              - cell "P1" [ref=e169]:
+                - generic [ref=e170]: P1
+              - cell "0" [ref=e171]
+              - cell [ref=e172]:
+                - generic [ref=e173]:
+                  - button "Editar" [ref=e174]:
+                    - img [ref=e175]
+                  - button "Excluir" [ref=e178]:
+                    - img [ref=e179]
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - img [ref=e199]
+              - generic [ref=e201]:
+                - heading "Novo Test Case" [level=2] [ref=e202]
+                - paragraph [ref=e203]: "Suite: smoke"
+            - button [ref=e204]:
+              - img [ref=e205]
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - generic [ref=e210]: Título *
+              - 'textbox "Ex: Validar login com credenciais válidas" [active] [ref=e211]'
+            - generic [ref=e212]:
+              - generic [ref=e213]:
+                - generic [ref=e214]: Severity
+                - combobox [ref=e215]:
+                  - option "Blocker"
+                  - option "Critical"
+                  - option "High"
+                  - option "Medium" [selected]
+                  - option "Low"
+              - generic [ref=e216]:
+                - generic [ref=e217]: Priority
+                - combobox [ref=e218]:
+                  - option "P0"
+                  - option "P1"
+                  - option "P2" [selected]
+                  - option "P3"
+            - generic [ref=e219]:
+              - generic [ref=e220]: Pré-condições (opcional)
+              - 'textbox "Ex: Usuário cadastrado e ativo" [ref=e221]'
+            - generic [ref=e222]:
+              - generic [ref=e223]:
+                - generic [ref=e224]: Passos *
+                - button "Adicionar passo" [ref=e225]:
+                  - img [ref=e226]
+                  - text: Adicionar passo
+              - generic [ref=e229]:
+                - generic [ref=e230]: "1."
+                - generic [ref=e231]:
+                  - 'textbox "Ação: clique em Login" [ref=e232]'
+                  - 'textbox "Esperado: dashboard carregado" [ref=e233]'
+            - generic [ref=e234]:
+              - generic [ref=e235]: Pós-condições (opcional)
+              - 'textbox "Ex: sessão persistida no localStorage" [ref=e236]'
+          - generic [ref=e237]:
+            - button "Cancelar" [ref=e238]
+            - button "Criar Test Case" [disabled] [ref=e239]:
+              - img [ref=e240]
+              - text: Criar Test Case
+    - contentinfo [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - generic [ref=e185]: CTQS Enterprise
+          - generic [ref=e186]: "System Status: Operational"
+        - generic [ref=e188]:
+          - generic [ref=e189]: v2.4.1-stable
+          - generic [ref=e190] [cursor=pointer]: Privacy
+          - generic [ref=e191] [cursor=pointer]: Terms
+          - generic [ref=e192] [cursor=pointer]: Changelog

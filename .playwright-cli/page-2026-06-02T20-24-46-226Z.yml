@@ -1,0 +1,178 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: T
+      - generic [ref=e7]:
+        - generic [ref=e8]: CTQS
+        - generic [ref=e9]: Quality Engine
+    - button "New Test Run" [ref=e11]:
+      - img [ref=e12]
+      - text: New Test Run
+    - navigation [ref=e13]:
+      - link "Dashboard" [ref=e14] [cursor=pointer]:
+        - /url: /dashboards
+        - img [ref=e15]
+        - generic [ref=e17]: Dashboard
+      - link "Projetos" [ref=e18] [cursor=pointer]:
+        - /url: /projects
+        - img [ref=e19]
+        - generic [ref=e21]: Projetos
+      - link "Test Suites" [ref=e22] [cursor=pointer]:
+        - /url: /tests
+        - img [ref=e23]
+        - generic [ref=e25]: Test Suites
+      - link "Test Cases" [ref=e26] [cursor=pointer]:
+        - /url: /test-cases
+        - img [ref=e27]
+        - generic [ref=e30]: Test Cases
+      - link "Execuções" [ref=e31] [cursor=pointer]:
+        - /url: /runs
+        - img [ref=e32]
+        - generic [ref=e36]: Execuções
+      - link "Reports" [ref=e37] [cursor=pointer]:
+        - /url: /reports
+        - img [ref=e38]
+        - generic [ref=e40]: Reports
+      - link "Ambientes" [ref=e41] [cursor=pointer]:
+        - /url: /execution
+        - img [ref=e42]
+        - generic [ref=e44]: Ambientes
+      - link "Issues" [ref=e45] [cursor=pointer]:
+        - /url: /issues
+        - img [ref=e46]
+        - generic [ref=e55]: Issues
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]: Projeto Ativo
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: EV
+            - generic [ref=e62]: EVNODEF
+          - button "Trocar" [ref=e63]
+      - generic [ref=e64]:
+        - generic [ref=e65]: T
+        - generic [ref=e66]:
+          - generic [ref=e67]: Tester Playwright
+          - generic [ref=e68]: tester.playwright@tmctqs.local
+        - button "Sair" [ref=e69]:
+          - img [ref=e70]
+  - generic [ref=e72]:
+    - banner [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e76]:
+          - img [ref=e77]
+          - textbox "Search test suites..." [ref=e80]
+        - generic [ref=e81]:
+          - generic [ref=e84]: EVNODEF
+          - button "Modo Escuro" [ref=e85]:
+            - img [ref=e86]
+          - button "Notifications" [ref=e88]:
+            - img [ref=e89]
+          - button "Apps" [ref=e92]:
+            - img [ref=e93]
+          - generic [ref=e95]:
+            - generic [ref=e96]: T
+            - generic [ref=e97]: Tester Playwright
+    - main [ref=e98]:
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - link "Dashboard" [ref=e104] [cursor=pointer]:
+                - /url: /dashboards
+              - img [ref=e105]
+              - generic [ref=e107]: Execuções
+            - heading "Test Runs" [level=1] [ref=e108]
+            - paragraph [ref=e109]: Histórico de execuções, agendamentos e rodadas de re-run.
+          - button "Novo Run" [ref=e110]:
+            - img [ref=e111]
+            - text: Novo Run
+        - generic [ref=e112]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Total de Runs
+            - generic [ref=e116]: "0"
+          - generic [ref=e118]:
+            - generic [ref=e119]: Executando
+            - generic [ref=e120]: "0"
+          - generic [ref=e122]:
+            - generic [ref=e123]: Concluídos
+            - generic [ref=e124]: "0"
+          - generic [ref=e126]:
+            - generic [ref=e127]: Rascunhos
+            - generic [ref=e128]: "0"
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - img [ref=e132]
+            - textbox "Buscar por título..." [ref=e135]
+          - generic [ref=e136]:
+            - img [ref=e137]
+            - combobox [ref=e139]:
+              - option "Todos os status" [selected]
+              - option "Rascunho"
+              - option "Executando"
+              - option "Concluído"
+            - combobox [ref=e140]:
+              - option "Todas as Suites" [selected]
+              - option "Smoke Tests HMG Evno"
+            - combobox [ref=e141]:
+              - option "Todos os Ambientes" [selected]
+              - option "Web Homologação Evno"
+        - table [ref=e145]:
+          - rowgroup [ref=e146]:
+            - row "Suite / Run Ambiente Quem Quando Status Progresso Ações" [ref=e147]:
+              - columnheader "Suite / Run" [ref=e148]
+              - columnheader "Ambiente" [ref=e149]
+              - columnheader "Quem" [ref=e150]
+              - columnheader "Quando" [ref=e151]
+              - columnheader "Status" [ref=e152]
+              - columnheader "Progresso" [ref=e153]
+              - columnheader "Ações" [ref=e154]
+          - rowgroup [ref=e155]:
+            - row "Nenhum Test Run encontrado. Clique em \"Novo Run\" para criar o primeiro." [ref=e156]:
+              - cell "Nenhum Test Run encontrado. Clique em \"Novo Run\" para criar o primeiro." [ref=e157]
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - generic [ref=e177]:
+                - heading "Novo Test Run" [level=2] [ref=e178]
+                - paragraph [ref=e179]: Selecione a suite, ambiente e casos de teste
+            - button [ref=e180]:
+              - img [ref=e181]
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - generic [ref=e186]: Título *
+              - 'textbox "Ex: Smoke Test - Staging" [active] [ref=e187]': Smoke HMG Evno - 02/06/2026
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - generic [ref=e190]: Suite *
+                - combobox [ref=e191]:
+                  - option "Selecione uma suite"
+                  - option "Smoke Tests HMG Evno" [selected]
+              - generic [ref=e192]:
+                - generic [ref=e193]: Ambiente *
+                - combobox [ref=e194]:
+                  - option "Selecione"
+                  - option "Web Homologação Evno" [selected]
+            - generic [ref=e195]:
+              - generic [ref=e196]: Agendar para (opcional)
+              - textbox [ref=e197]
+              - paragraph [ref=e198]: Se definido, o run fica agendado até alguém iniciá-lo manualmente.
+            - generic [ref=e199]:
+              - generic [ref=e201]: Test Cases (opcional)
+              - generic [ref=e202]: Nenhum Test Case nesta Suite.
+          - generic [ref=e203]:
+            - button "Cancelar" [ref=e204]
+            - button "Criar Run" [ref=e205]:
+              - img [ref=e206]
+              - text: Criar Run
+    - contentinfo [ref=e158]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - generic [ref=e161]: CTQS Enterprise
+          - generic [ref=e162]: "System Status: Operational"
+        - generic [ref=e164]:
+          - generic [ref=e165]: v2.4.1-stable
+          - generic [ref=e166] [cursor=pointer]: Privacy
+          - generic [ref=e167] [cursor=pointer]: Terms
+          - generic [ref=e168] [cursor=pointer]: Changelog

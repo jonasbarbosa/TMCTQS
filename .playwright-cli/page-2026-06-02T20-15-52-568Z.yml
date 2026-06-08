@@ -1,0 +1,95 @@
+- generic [ref=e23]:
+  - complementary [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]: T
+      - generic [ref=e27]:
+        - generic [ref=e28]: CTQS
+        - generic [ref=e29]: Quality Engine
+    - button "New Test Run" [ref=e31]:
+      - img [ref=e32]
+      - text: New Test Run
+    - navigation [ref=e33]:
+      - link "Dashboard" [ref=e34] [cursor=pointer]:
+        - /url: /dashboards
+        - img [ref=e35]
+        - generic [ref=e37]: Dashboard
+      - link "Projetos" [ref=e38] [cursor=pointer]:
+        - /url: /projects
+        - img [ref=e39]
+        - generic [ref=e41]: Projetos
+      - link "Test Suites" [ref=e42] [cursor=pointer]:
+        - /url: /tests
+        - img [ref=e43]
+        - generic [ref=e45]: Test Suites
+      - link "Test Cases" [ref=e46] [cursor=pointer]:
+        - /url: /test-cases
+        - img [ref=e47]
+        - generic [ref=e50]: Test Cases
+      - link "Execuções" [ref=e51] [cursor=pointer]:
+        - /url: /runs
+        - img [ref=e52]
+        - generic [ref=e56]: Execuções
+      - link "Reports" [ref=e57] [cursor=pointer]:
+        - /url: /reports
+        - img [ref=e58]
+        - generic [ref=e60]: Reports
+      - link "Ambientes" [ref=e61] [cursor=pointer]:
+        - /url: /execution
+        - img [ref=e62]
+        - generic [ref=e64]: Ambientes
+      - link "Issues" [ref=e65] [cursor=pointer]:
+        - /url: /issues
+        - img [ref=e66]
+        - generic [ref=e75]: Issues
+    - generic [ref=e76]:
+      - link "Selecionar Projeto" [ref=e77] [cursor=pointer]:
+        - /url: /projects
+        - img [ref=e78]
+        - generic [ref=e79]: Selecionar Projeto
+      - generic [ref=e80]:
+        - generic [ref=e81]: T
+        - generic [ref=e82]:
+          - generic [ref=e83]: Tester Playwright
+          - generic [ref=e84]: tester.playwright@tmctqs.local
+        - button "Sair" [ref=e85]:
+          - img [ref=e86]
+  - generic [ref=e88]:
+    - banner [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e92]:
+          - img [ref=e93]
+          - textbox "Search test suites..." [ref=e96]
+        - generic [ref=e97]:
+          - button "Modo Escuro" [ref=e98]:
+            - img [ref=e99]
+          - button "Notifications" [ref=e101]:
+            - img [ref=e102]
+          - button "Apps" [ref=e105]:
+            - img [ref=e106]
+          - generic [ref=e108]:
+            - generic [ref=e109]: T
+            - generic [ref=e110]: Tester Playwright
+    - main [ref=e111]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - heading "Dashboard Principal" [level=2] [ref=e116]
+            - paragraph [ref=e117]: Bem-vindo ao centro de controle de qualidade da CTQS. Monitore o progresso da automação e a saúde das suas releases em tempo real.
+          - generic [ref=e118]:
+            - generic [ref=e119]: Data do Relatório
+            - generic [ref=e120]: 2 de jun. de 2026
+        - generic [ref=e121]:
+          - img [ref=e123]
+          - generic [ref=e125]:
+            - generic [ref=e126]: Nenhum projeto selecionado
+            - generic [ref=e127]: Selecione um projeto acima para ver as métricas de qualidade.
+    - contentinfo [ref=e128]:
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]: CTQS Enterprise
+          - generic [ref=e132]: "System Status: Operational"
+        - generic [ref=e134]:
+          - generic [ref=e135]: v2.4.1-stable
+          - generic [ref=e136] [cursor=pointer]: Privacy
+          - generic [ref=e137] [cursor=pointer]: Terms
+          - generic [ref=e138] [cursor=pointer]: Changelog

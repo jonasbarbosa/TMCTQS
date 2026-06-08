@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "appwrite-api": {
+      "command": "/bin/bash",
+      "args": ["scripts/mcp-appwrite.sh"]
+    },
+    "appwrite-docs": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp-for-docs.appwrite.io"]
+    }
+  }
+}

@@ -1,0 +1,178 @@
+- generic [ref=e4]:
+  - complementary [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: T
+      - generic [ref=e8]:
+        - generic [ref=e9]: CTQS
+        - generic [ref=e10]: Quality Engine
+    - button "New Test Run" [ref=e12]:
+      - img [ref=e13]
+      - text: New Test Run
+    - navigation [ref=e14]:
+      - link "Dashboard" [ref=e15] [cursor=pointer]:
+        - /url: /dashboards
+        - img [ref=e16]
+        - generic [ref=e18]: Dashboard
+      - link "Projetos" [ref=e19] [cursor=pointer]:
+        - /url: /projects
+        - img [ref=e20]
+        - generic [ref=e22]: Projetos
+      - link "Test Suites" [ref=e23] [cursor=pointer]:
+        - /url: /tests
+        - img [ref=e24]
+        - generic [ref=e26]: Test Suites
+      - link "Test Cases" [ref=e27] [cursor=pointer]:
+        - /url: /test-cases
+        - img [ref=e28]
+        - generic [ref=e31]: Test Cases
+      - link "Execuções" [ref=e32] [cursor=pointer]:
+        - /url: /runs
+        - img [ref=e33]
+        - generic [ref=e37]: Execuções
+      - link "Reports" [ref=e38] [cursor=pointer]:
+        - /url: /reports
+        - img [ref=e39]
+        - generic [ref=e41]: Reports
+      - link "Ambientes" [ref=e42] [cursor=pointer]:
+        - /url: /execution
+        - img [ref=e43]
+        - generic [ref=e45]: Ambientes
+      - link "Issues" [ref=e46] [cursor=pointer]:
+        - /url: /issues
+        - img [ref=e47]
+        - generic [ref=e56]: Issues
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]: Projeto Ativo
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: EV
+            - generic [ref=e63]: EVNODEF
+          - button "Trocar" [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e66]: T
+        - generic [ref=e67]:
+          - generic [ref=e68]: Tester Playwright
+          - generic [ref=e69]: tester.playwright@tmctqs.local
+        - button "Sair" [ref=e70]:
+          - img [ref=e71]
+  - generic [ref=e73]:
+    - banner [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e77]:
+          - img [ref=e78]
+          - textbox "Search test suites..." [ref=e81]
+        - generic [ref=e82]:
+          - generic [ref=e85]: EVNODEF
+          - button "Modo Escuro" [ref=e86]:
+            - img [ref=e87]
+          - button "Notifications" [ref=e89]:
+            - img [ref=e90]
+          - button "Apps" [ref=e93]:
+            - img [ref=e94]
+          - generic [ref=e96]:
+            - generic [ref=e97]: T
+            - generic [ref=e98]: Tester Playwright
+    - main [ref=e99]:
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - img [ref=e107]
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - combobox [ref=e111] [cursor=pointer]:
+                  - option "Smoke Tests HMG Evno" [selected]
+                - generic [ref=e112]: 0 casos
+                - generic [ref=e113]: 0 steps
+              - generic [ref=e115]: Suíte de smoke tests para validação do ambiente web de homologação da Evno. Cobre Permissões de Usuário, Segurança (Login + MFA), Reversão de Depósito, Tipos de Chave Pix e Cobrança via QR Code.
+          - generic [ref=e116]:
+            - button "Nova Suíte" [ref=e117]:
+              - img [ref=e118]
+              - text: Nova Suíte
+            - link "Iniciar Nova Execução" [ref=e119] [cursor=pointer]:
+              - /url: /execution
+              - img [ref=e120]
+              - text: Iniciar Nova Execução
+            - button "Histórico" [ref=e122]:
+              - img [ref=e123]
+              - text: Histórico
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - generic [ref=e179]: Progresso da Suite
+              - generic [ref=e180]: 0%
+            - generic [ref=e183]:
+              - generic [ref=e186]: 0 Sucesso
+              - generic [ref=e189]: 0 Falha
+              - generic [ref=e192]: 0 Bloqueado
+              - generic [ref=e195]: 0 Pendente
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - img [ref=e198]
+              - generic [ref=e201]: "ID: 6a1f3a95"
+            - generic [ref=e202]:
+              - img [ref=e203]
+              - generic [ref=e205]: 0 execuções
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e206]:
+              - generic [ref=e207]: Casos de Teste
+              - generic [ref=e208]: 0 casos
+            - generic [ref=e210]:
+              - textbox "Buscar casos..." [ref=e211]
+              - img
+          - table [ref=e212]:
+            - rowgroup [ref=e213]:
+              - row "ID Nome Prioridade Steps Último Resultado Ações" [ref=e214]:
+                - columnheader "ID" [ref=e215]
+                - columnheader "Nome" [ref=e216]
+                - columnheader "Prioridade" [ref=e217]
+                - columnheader "Steps" [ref=e218]
+                - columnheader "Último Resultado" [ref=e219]
+                - columnheader "Ações" [ref=e220]
+            - rowgroup [ref=e221]:
+              - row "Nenhum caso de teste nesta suíte." [ref=e222]:
+                - cell "Nenhum caso de teste nesta suíte." [ref=e223]
+        - generic [ref=e224]:
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - img [ref=e228]
+              - generic [ref=e231]: Duração Média
+            - generic [ref=e232]: —
+            - generic [ref=e233]: por caso de teste
+          - generic [ref=e235]:
+            - generic [ref=e236]:
+              - img [ref=e237]
+              - generic [ref=e239]: Carga de Infra
+            - generic [ref=e240]:
+              - generic [ref=e241]:
+                - generic [ref=e242]: 1.2s
+                - generic [ref=e243]: resposta média
+              - img [ref=e244]
+            - generic [ref=e246]:
+              - img [ref=e247]
+              - generic [ref=e250]: +5.2%
+              - generic [ref=e251]: vs. último mês
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - img [ref=e255]
+              - generic [ref=e257]: Tendência de Erros
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - generic [ref=e260]: "0"
+                - generic [ref=e261]: falhas nesta suite
+              - img [ref=e262]
+            - generic [ref=e264]:
+              - img [ref=e265]
+              - generic [ref=e268]: "-12.3%"
+              - generic [ref=e269]: vs. último mês
+    - contentinfo [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]: CTQS Enterprise
+          - generic [ref=e137]: "System Status: Operational"
+        - generic [ref=e139]:
+          - generic [ref=e140]: v2.4.1-stable
+          - generic [ref=e141] [cursor=pointer]: Privacy
+          - generic [ref=e142] [cursor=pointer]: Terms
+          - generic [ref=e143] [cursor=pointer]: Changelog
